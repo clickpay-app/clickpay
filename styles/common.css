@@ -142,7 +142,10 @@ pre {
   position: relative;
   margin-bottom: 5px;
   z-index: 1;
-  color: #c4975f;
+  /* color: #c4975f; */
+  font-weight: bold;
+  color: #273f3b;
+  font-size: 2rem;
 }
 
 .comp-pre-title+.comp-title {
@@ -161,11 +164,21 @@ pre {
 }
 
 .green-doodle {
-  background-image: url(https://www.vidyard.com/wp-content/themes/vidyard-website/img/pages/company/about-us/green-doodle.svg);
+  /* background-image: url(https://www.vidyard.com/wp-content/themes/vidyard-website/img/pages/company/about-us/green-doodle.svg);
   background-position: bottom;
   background-repeat: no-repeat;
-  background-size: 170px;
-}
+  background-size: 170px; */
+
+  background-color: #273f3b;
+    color: #ffffff;
+    padding: 3.5px;
+    font-weight: bold;
+    font-size: 2rem;
+    max-width: fit-content;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    }
 
 h1>span, .h1>span, h2>span, .h2>span, h3>span, .h3>span, h4>span, .h4>span, h5>span, .h5>span, h6>span, .h6>span {
   font-weight: inherit !important;

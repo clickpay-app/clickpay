@@ -62,7 +62,8 @@
   "footer_5": "الاسئلة الشائعة",
   "heroBtn_start_1": "ابدأ الأن",
   "service_title_1": "لنجاح تجارتك بأمان وثقة",
-  "aboutus_word" :"<div class='rtl'>من نحن",
+  "aboutus_word" :"<div class='rtl'>نحن نوفر لأصحاب الأعمال",
+  "aboutustitle" :"<div class='rtl'>حلول دفع مبتكرة وآمنة",
   "aboutus-prg" : "<div class='rtl'>ClickPay بوابة دفع إلكترونية تابعة لمصرف الإنماء، تمكن التجار من استقبال المدفوعات، وإدارة معاملاتهم المالية في المملكة العربية السعودية بأمان. <br> تدعم ClickPay  طرق دفع متعددة لتسهل على التجار الحصول على المدفوعات من قبل عملائهم، ومشاركة روابط الدفع بالمتاجر الإلكترونية. <br> وتوفر ClickPay العديد من الحلول التي تمكن العملاء من التحكم الكامل في أعمالهم عبر لوحة معلومات تفاعليه ومبتكرة.",
   "question_1" : "ماهي منصة ClickPay؟",
   "question_2" : "ما هو مستوى الأمان المقدم من ClickPay؟",
@@ -89,8 +90,11 @@
   "inquiry2" : "<div class='rtl'>شكوى",
   "faq-title" : "<div class='faqs' style='direction: rtl; text-align: right;'>الأسئلة الشائعة</div>",
   "contactus" : "تواصل معنا",
+  "contactusabout" : "ابدأ الان",
   "signup" : "التسجيل",
   "registerquestion" : "لديك حساب؟ تسجيل الدخول",
+  "registertitle" : "سجل بياناتك وابدأ تجارتك",
+
 
 
 

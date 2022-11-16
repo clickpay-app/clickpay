@@ -62,7 +62,8 @@
   "footer_5": "FAQ",
   "heroBtn_start_1": "Start Now ",
   "service_title_1": "For the success of your business safely and confidently",
-  "aboutus_word" :"<div class='ltr'>About us",
+  "aboutus_word" :"<div class='ltr'>We provide for business owners",
+  "aboutustitle" :"<div class='ltr'>Secure payment solutions",
   "aboutus-prg" : "<div class='ltr'>ClickPay is a truly world class payment gateway under Alinma bank which supports all the payment methods in the market to enable merchants to accept payments through checkout page, mobile application and via sharing links across all the communications platforms. ClickPay provide many solutions that enable clients to have complete control of their business via an interactive and creative dashboard.",
   "question_1" : "<div class='faqs' style='direction: ltr; text-align: left;'>What is ClickPay?</div>",
   "question_2" : "<div class='faqs' style='direction: ltr; text-align: left;'>What is the security level in ClickPay?</div>",
@@ -75,6 +76,7 @@
   "faq-title" : "<div class='faqs' style='direction: ltr; text-align: left;'>FAQ</div>",
   "termstitle" : "<div class='content-title'  style='font-size: 35px; direction: ltr;' data-aos='fade-up' data-aos-duration='1500' data-aos-delay='400' font-size='1.125rem' color='#54595F' >Terms and Conditions</div>",
   "contactus" : "Contact Us",
+  "contactusabout" : "Start Now",
   "name" : "<div class='ltr'>Name",
   "emailaddress" : "<div class='ltr'>E-mail address",
   "phonenumber" : "<div class='ltr'>Phone Number",
@@ -87,6 +89,8 @@
   "registertext" : "Register Now",
   "textname" : "<div class='ltr'>Name",
   "signup" : "Sign Up",
+
+  "registertitle" : "Register now and start your business",
   "aboutus-prg1" : "Push your finances to the next level",
 
 
