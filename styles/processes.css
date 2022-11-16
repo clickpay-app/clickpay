@@ -1,0 +1,85 @@
+.processes {
+  display: flex;
+  margin: 5rem auto;
+  width: min(1100px, 100%);
+}
+.process-image {
+  width: 70%;
+  padding: 1rem;
+  display: flex;
+}
+.process-image img {
+  width: 100%;
+  border-radius: 6px;
+}
+.process-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 0.5rem;
+  text-align: right;
+  align-items: flex-end;
+  padding: 1rem;
+}
+.process {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.process {
+  padding: 1rem;
+  color: #999999;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  transition: 0.3s border-color;
+}
+.process h2 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  direction: rtl;
+}
+.process p {
+  font-weight: 400;
+  font-size: 1.125rem;
+  color: #54595f;
+  direction: rtl;
+}
+.process:hover {
+  border-color: #4ab8f8;
+}
+.process-icon {
+  height: 50px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.selected-process {
+  border-color: #b7813a;
+}
+.selected-process h2 {
+  color: #b7813a;
+  direction: rtl;
+}
+.selected-process p {
+  color: #000000;
+  direction: rtl;
+}
+@media (max-width: 1168px) {
+  .process-image {
+    padding-top:50px;
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .process-image {
+    display: none;
+  }
+}
+@media (max-width: 1002px) {
+  .processes {
+    flex-direction: column-reverse;
+  }
+  .process-image {
+    margin-left: auto;
+    width: min(500px, 90%);
+  }
+}

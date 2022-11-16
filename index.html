@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <link rel="icon" type="image/x-icon" href="/images/clickpay.svg">
+        <link href='https://fonts.googleapis.com/css?family=Tajawal' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Poppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CSen%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CTajawal%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=auto&amp;ver=6.0.3" media="all">
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+        <link rel="stylesheet" href="styles/index.css">
+        <link rel="stylesheet" href="styles/common.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/hero.css">
+        <link rel="stylesheet" href="styles/services.css">
+        <link rel="stylesheet" href="styles/steps.css">
+        <link rel="stylesheet" href="styles/processes.css">
+        <link rel="stylesheet" href="styles/interfaces.css">
+        <link rel="stylesheet" href="styles/features.css">
+        <link rel="stylesheet" href="styles/payments.css">
+        <link rel="stylesheet" href="styles/footer.css">
+        <title>Pay</title>
+    </head>
+    <body>
+        <header class='header'>
+            <a class='gold-button' href='login.html' id="navBtn_sign_in">تسجيل الدخول</a>
+            <nav class='navigation navigation-hide' id='navigation'>
+                <div class='navigation-item'><a href="javascript:;" id="navBtn_translate">English</a></div>
+                <div class='navigation-item'><a href="index.html#section-6" id="navItem_6" aria-current="page">حلول الدفع</a></div>
+                <div class='navigation-item'><a href="index.html#section-5" id="navItem_5" aria-current="page">ماذا يميزنا</a></div>
+                <div class='navigation-item'><a href="index.html#section-4" id="navItem_4" aria-current="page">ربط بوابة الدفع</a></div>
+                <div class='navigation-item'><a href="index.html#section-3" id="navItem_3" aria-current="page">إدارة الفواتير</a></div>
+                <div class='navigation-item'><a href="index.html#section-2" id="navItem_2" aria-current="page">روابط الدفع</a></div>
+                <div class='navigation-item'><a href="index.html#section-1" id="navItem_1" aria-current="page">خدماتنا</a></div>
+            </nav>
+            <img src='images/menu.png' class='dropdown' alt='Dropdown' id='dropdown' onclick='toggleNavbar()'/>
+            <a href="index.html" class="logo-link"><img class='logo' src='images/clickpay.svg' alt='Logo'/></a>
+        </header>
+        <div class="container">
+            <div class='hero'>
+                <div class='hero-image' data-aos='slide-right' data-aos-duration="1500">
+                    <img src='images/hero.webp' alt='Hero' class='hero-image'/>
+                </div>
+                <div class='hero-text'>
+                    <div class='benefits'>
+                        <p data-aos='fade-right' data-aos-duration='1500' data-aos-delay='300' id="heroItem_3">أكثر أماناً <i class="fa fa-check-circle" aria-hidden="true"></i><p>
+                        <p data-aos='fade-right' data-aos-duration='1500' data-aos-delay='300' id="heroItem_2">أسرع <i class="fa fa-check-circle" aria-hidden="true"></i></p>
+                        <p data-aos='fade-right' data-aos-duration='1500' data-aos-delay='300' id="heroItem_1">أسهل <i class="fa fa-check-circle" aria-hidden="true"></i></p>
+                    </div>
+                    <h1 class='main-text' data-aos='fade-up' data-aos-duration='1500' data-aos-delay='400' id="heroAdver_1">
+                        لإدارة أعمالك <br/>
+                    </h1>
+
+                    <div class='heroAdver_2' data-aos='fade-up' data-aos-duration='1500' data-aos-delay='600' id="heroAdver_2">بأمان وثقة</div>
+
+
+                    <p class='description' data-aos='fade-up' data-aos-duration='1500' data-aos-delay='600' id="heroAdver_3">
+                        بوابة دفع إلكترونية متكاملة تابعة لمصرف الإنماء، تُساهم في تمكين التجّار عبر التطبيقات والمتاجر الإلكترونية لتُلبي احتياجات أعمالهم
+                    </p>
+                    <a class='gold-button' href='register.html' data-aos='fade-up' data-aos-duration='1500' data-aos-delay='700' id="heroBtn_start" target="_blank">ابدأ الان</a>
+                </div>
+               
+             
+            </div>
+            <div class="first-section">
+                <div id='section-1' class='services section1'>
+                    <div class='services-text'>
+                        <h2 data-aos='fade-up' data-aos-duration='1500' data-aos-delay='100' id="service_title">احصل على خدمات مالية سهلة وسريعة وأكثر أمانًا!</h2>
+                        <div class='service'>
+                            <h3 data-aos='fade-up' data-aos-duration='1500' data-aos-delay='400' id="service_1_title">ربط بوابة الدفع</h3>
+                            <p data-aos='fade-up' data-aos-duration='1500' data-aos-delay='500' id="service_1_desc">حلول ربط متقدمة للتجّار لتسهيل عمليات الدفع وتحصيل المدفوعات، عن طريق الربط المباشر مع منصات التجارة الإلكترونية أو الربط الغير مباشر مع المواقع الإلكترونية والتطبيقات<p>
+                        </div>
+                        <div class='service'>
+                            <h3 data-aos='fade-up' data-aos-duration='1500' data-aos-delay='400' id="service_2_title">روابط الدفع</h3>
+                            <p data-aos='fade-up' data-aos-duration='1500' data-aos-delay='500' id="service_2_desc">خدمة تمكن التاجر من إنشاء روابط الدفع وإرسالها للعملاء بكل سهولة وأمان من خلال الرسائل النصية أو البريد الإلكتروني لتحصيل المدفوعات بدون الحاجة إلى الربط الإلكتروني<p>
+                            </div>
+                        <div class='service'>
+                            <h3 data-aos='fade-up' data-aos-duration='1500' data-aos-delay='400' id="service_3_title">الفواتير الإلكترونية</h3>
+                            <p data-aos='fade-up' data-aos-duration='1500' data-aos-delay='500' id="service_3_desc">خدمة تمكن التاجر من إنشاء فواتير مفصلة، ومشاركتها بسهولة مع العملاء بكل أمان من خلال مواقع التواصل الاجتماعي أو البريد الإلكتروني<p>
+                        </div>
+                    </div>
+                    <div data-aos='fade-in' data-aos-duration='1500' data-aos-delay='300'>
+                        <div class='services-image'>
+                            <img src='images/meeting.jpg' alt='Services'/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id='section-2' class='steps section'>
+                <div class="height-7rem"></div>
+                <h1 data-aos='fade-up' data-aos-duration='1500' data-aos-delay='400' id="paylink_title">خطوات إنشاء رابط الدفع</h1>
+                <div class='step-list-container' id="stp-list">
+                    <img src='images/left-arrow.png' class='step-left' id="left-btn" onclick='scrollPrevious()'/>
+                    <img src='images/right-arrow.png' class='step-right' id="right-btn" onclick='scrollNext()'/>
+                    <div class='step-list' id='step-list'>
+                        <div class='stepline'></div>
+                        <div class='step'>
+                            <div class='step-dummy-info'></div>
+                            <div class='step-circle'>
+                                <div class='step-circle-inner'></div>
+                            </div>
+                            <div class='step-info'>
+                                <div class='step-overlay'></div>
+                                <img src='images/step-1.png' alt='Step'/>
+                                <h4 id="paylink_1">تحصيل المدفوعات وتلقي إشعار بإتمام عملية الدفع</h4>
+                            </div>
+                        </div>
+                        <div class='step'>
+                            <div class='step-info'>
+                                <div class='step-overlay'></div>
+                                <img src='images/step-2.png' alt='Step'/>
+                                <h4 id="paylink_2">يقوم العميل بتسديد الفاتورة من خلال وسائل الدفع</h4>
+                            </div>
+                            <div class='step-circle'>
+                                <div class='step-circle-inner'></div>
+                            </div>
+                            <div class='step-dummy-info'></div>
+                        </div>
+                        <div class='step'>
+                            <div class='step-dummy-info'></div>
+                            <div class='step-circle'>
+                                <div class='step-circle-inner'></div>
+                            </div>
+                            <div class='step-info'>
+                                <div class='step-overlay'></div>
+                                <img src='images/step-3.png' alt='Step'/>
+                                <h4 id="paylink_3">مشاركة رابط الدفع مع العميل من خلال وسائل التواصل الاجتماعي أو البريد الإلكتروني</h4>
+                                </div>
+                        </div>
+                        <div class='step'>
+                            <div class='step-info'>
+                                <div class='step-overlay'></div>
+                                <img src='images/step-4.png' alt='Step'/>
+                                <h4 id="paylink_4">إنشاء رابط الدفع ثم إدخال بيانات فاتورة العميل</h4>
+                            </div>
+                            <div class='step-circle'>
+                                <div class='step-circle-inner'></div>
+                            </div>
+                            <div class='step-dummy-info'></div>
+                        </div>
+                        <div class='step'>
+                            <div class='step-dummy-info'></div>
+                            <div class='step-circle'>
+                                <div class='step-circle-inner'></div>
+                            </div>
+                            <div class='step-info'>
+                                <div class='step-overlay'></div>
+                                <img src='images/step-5.png' alt='Step'/>
+                                <h4 id="paylink_5">اختيار رابط الدفع من خلال واجهة لوحة التحكم</h4>
+                            </div>
+                        </div>
+                        <div class='step'>
+                            <div class='step-info'>
+                                <div class='step-overlay'></div>
+                                <img src='images/step-6.png' alt='Step'/>
+                                <h4 id="paylink_6">تسجيل الدخول إلى البوابة</h4>
+                            </div>
+                            <div class='step-circle'>
+                                <div class='step-circle-inner'></div>
+                            </div>
+                            <div class='step-dummy-info'></div>
+                        </div>
+                    </div>
+                </div>
+				
+            </div>
+            <div id="section-2" class="step-mobile section">
+                <p class="step-mobile-title" id="paylink_title1" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">خطوات إنشاء رابط الدفع</p>
+                <div class="step-mobile-sep"></div>
+                <div class="step-mobile-item"> 
+                    <div class="step-mobile-item-image">
+                        <img src="images/step-6.png" alt="step-6">
+                    </div>
+                    <p class="step-mobile-item-title" id="paylink_12">
+                        تسجيل الدخول إلى البوابة
+                    </p>
+                </div>
+                <div class="step-mobile-item"> 
+                    <div class="step-mobile-item-image">
+                        <img src="images/step-5.png" alt="step-5">
+                    </div>
+                    <p class="step-mobile-item-title" id="paylink_11">اختيار رابط الدفع من خلال واجهة لوحة التحكم  </p>
+                </div>
+                <div class="step-mobile-item"> 
+                    <div class="step-mobile-item-image">
+                        <img src="images/step-4.png" alt="step-4">
+                    </div>
+                    <p class="step-mobile-item-title" id="paylink_10">إنشاء رابط الدفع ثم إدخال بيانات فاتورة العميل</p>
+                </div>
+                <div class="step-mobile-item"> 
+                    <div class="step-mobile-item-image">
+                        <img src="images/step-3.png" alt="step-3">
+                    </div>
+                    <p class="step-mobile-item-title" id="paylink_9"> مشاركة رابط الدفع مع العميل من خلال وسائل التواصل الاجتماعي أو البريد الإلكتروني</p>
+                </div>
+                <div class="step-mobile-item"> 
+                    <div class="step-mobile-item-image">
+                        <img src="images/step-2.png" alt="step-2">
+                    </div>
+                    <p class="step-mobile-item-title" id="paylink_8">يقوم العميل بتسديد الفاتورة من خلال وسائل الدفع</p>
+                </div>
+                <div class="step-mobile-item"> 
+                    <div class="step-mobile-item-image">
+                        <img src="images/step-1.png" alt="step-1">
+                    </div>
+                    <p class="step-mobile-item-title" id="paylink_7">تحصيل المدفوعات وتلقي إشعار بإتمام عملية الدفع</p>
+                </div>
+            </div>
+            <div id='section-3' class='processes section'>
+                <div class="height-7rem"></div>
+                <div class='process-image' id='process-image'>
+                    <img src='images/slide-1.jpg' alt='Process'/>
+                </div>
+                <div class='process-list'>
+                    <div class='process selected-process left-process' id='process-1' onclick='changeSlideImage(1)'>
+                        <div class='process-icon'><img src='images/process-1.png' alt='Process'/></div>
+                        <h2 id="invoice_1_title">إدارة الفواتير والمدفوعات</h2>
+                        <p id="invoice_1_desc">الحل الأمثل لأي تاجر بمنحه القدرة على تخزين العمليات وحفظ الفواتير لتتبع المدفوعات المختلفة وتحليلها، واستقبال المدفوعات إلكترونيًا.</p>
+                    </div>
+                    <div class='process right-process' id='process-2' onclick='changeSlideImage(2)'>
+                        <div class='process-icon'><img src='images/process-2.png' alt='Process'/></div>
+                        <h2 id="invoice_2_title">الفواتير المفصّلة والمتكررة</h2>
+                        <p id="invoice_2_desc">ميزة إدراج الفواتير بشكل مفصّل ودقيق وتصنيفها في قوائم مختلفة بصورة واضحة لسهولة الوصول إليها في أي وقت</p>
+                    </div>
+                    <div class='process left-process' id='process-3' onclick='changeSlideImage(3)'>
+                        <div class='process-icon'><img src='images/process-3.png' alt='Process'/></div>
+                        <h2 id="invoice_3_title">لوحة معلومات التاجر</h2>
+                        <p id="invoice_3_desc">تمنحك القدرة على إدارة قائمة العملاء والموردين، كما يمكن التحقق من الفواتير والعمليات ومراجعة تفاصيل مبيعاتك بكل سرية وأمان</p>
+                    </div>
+                </div>
+            </div>
+            <div id='section-4' class='interfaces section'>
+                <div class="height-7rem"></div>
+                <div class='interfaces-text'>
+                    <h1 data-aos='fade-up' data-aos-duration='1500' id="gateway_title">ربط بوابة الدفع</h1>
+                    <h3 data-aos='fade-in' data-aos-duration='1500' data-aos-delay='100' id="gateway_1">قم بربط بوابة الدفع بمتجرك الإلكتروني وامنح عملائك تجربة أكثر أمان وسهولة</h3>
+                    <h2 data-aos='fade-in' data-aos-duration='1500' data-aos-delay='100' id="gateway_2">:حلول ربط متقدمة وسريعة للمتاجر الالكترونية ClickPay تدعم بوابة</h2>
+                    <h3 data-aos='fade-in' data-aos-duration='1500' data-aos-delay='100' id="gateway_3">Shopify :إضافة قالب جاهز للدفع الالكتروني من خلال</h3>
+                </div>
+                <div class='interfaces-images'>
+                    <h2 data-aos='fade-up' data-aos-duration='1500' style="direction: rtl;" id="gateway_4">إضافة واجهة برمجيات بإحدى الطرق التالية:</h2>
+                    <div class='interface-list'>
+                        <a target="_blank" href='https://support.clickpay.com.sa/en/support/solutions/articles/73000593376-token-based-transactions-recurring-' class='interface' data-aos='fade-left' data-aos-duration='1500' data-aos-delay='200'>
+                            <img src='images/express-checkout.png' alt='Interface'/>
+                            <p>Recurring Payment</p>
+                        </a>
+                        <a target="_blank" href='https://support.clickpay.com.sa/en/support/solutions/folders/73000480773' class='interface' data-aos='fade-left' data-aos-duration='1500' data-aos-delay='300'>
+                            <img src='images/mobile-sdk.png' alt='Interface'/>
+                            <p>Mobile SDK</p>
+                        </a>
+                        <a target="_blank" href='https://support.clickpay.com.sa/en/support/solutions/folders/73000480772' class='interface' data-aos='fade-left' data-aos-duration='1500' data-aos-delay='400'>
+                            <img src='images/direct-api.png' alt='Interface'/>
+                            <p>Direct API</p>
+                        </a>
+                        <a target="_blank" href='https://support.clickpay.com.sa/en/support/solutions/folders/73000511699' class='interface' data-aos='fade-left' data-aos-duration='1500' data-aos-delay='500'>
+                            <img src='images/shopping-cart-plugins.png' alt='Interface'/>
+                            <p>Shopping Cart Plugins</p>
+                        </a>
+                        <a target="_blank" href='https://support.clickpay.com.sa/en/support/solutions/articles/73000593860' class='interface' data-aos='fade-left' data-aos-duration='1500' data-aos-delay='600'>
+                            <img src='images/iframe.png' alt='Interface'/>
+                            <p>iFrame</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id='section-5' class='features section'>
+                <div class="height-7rem"></div>
+                <div class='features-text'>
+                    <h1 data-aos='fade-up' data-aos-duration='1500' data-aos-delay='200' id="special_title">ماذا يميزنا؟ </h1>
+                    <div data-aos='fade-right' data-aos-duration='1500' data-aos-delay='500'>
+                        <h3 id="special_1">الأمان العالي والخصوصية <img src='images/check.png' alt='Check'/></i></h3>
+                    </div>
+                    <div  data-aos='fade-right' data-aos-duration='1500' data-aos-delay='600'>
+                        <h3 id="special_2">لا يشترط توفر منصة أو موقع إلكتروني لتجارتك لإنشاء روابط دفع<img src='images/check.png' alt='Check'/></i></h3>
+                    </div>
+                    <div  data-aos='fade-right' data-aos-duration='1500' data-aos-delay='700'>
+                        <h3 id="special_3">سهولة ربط المتجر الإلكتروني <img src='images/check.png' alt='Check'/></i></h3>
+                    </div>
+                    <div data-aos='fade-right' data-aos-duration='1500' data-aos-delay='800' >
+                        <h3 id="special_4">إدارة فواتيرك مع عملائك <img src='images/check.png' alt='Check'/></i></h3>
+                    </div>
+                    <div data-aos='fade-right' data-aos-duration='1500' data-aos-delay='900' >
+                        <h3 id="special_5"> اسعار منافسة <img src='images/check.png' alt='Check'/></i></h3>
+                    </div>
+                    <div data-aos='fade-right' data-aos-duration='1500' data-aos-delay='1000' >
+                        <h3 id="special_6">تحويل الأموال إلى حساب التاجر لمعاملات مدى بشكل فوري خلال 24 ساعة لبطاقات الائتمان <img src='images/check.png' alt='Check'/></i></h3>
+                    </div>
+                </div>
+                <div data-aos='fade-up' data-aos-duration='1000'>
+                    <div class='features-image'>
+                        <img src='images/exhibition.webp' alt='Features'/>
+                    </div>
+                </div>
+            </div>
+            <div id='section-6' class='payments section'>
+                <div class="height-7rem"></div>
+                <h1 id="payment_title">نوفر طرق و وسائل دفع متعددة لجميع الفئات</h1>
+                <div class='payment-list' >
+                    <img src='images/payment-1.jpg' alt='Payment'/>
+                    <img src='images/payment-2.jpg' alt='Payment'/>
+                    <img src='images/payment-3.jpg' alt='Payment'/>
+                    <img src='images/payment-4.jpg' alt='Payment'/>
+                    <img src='images/download (1).jpg'   style="height: 170px;"  alt='Payment'/>
+                </div>
+            </div>Express Checkout
+            <div id='section-6' class='payments section'>
+                <h1 id="service_title_1">لنجاح تجارتك بأمان وثقة</h1>
+            </br>
+                <a class='gold-button' href='register.html' id="heroBtn_start_1" target="_blank" style=" padding: 1rem 2rem; ">ابدأ الان</a>
+            </div>
+
+            
+        </div>
+        <footer class='footer'>
+            <div class='footer-overlay'></div>
+            <img class='footer-logo' src='images/logo-alternate.png' alt='Logo'/>
+            <div class="footer-links" style=" direction: rtl; ">
+                <div class="footer-link">
+                    <a href="about.html" id="footer_3">من نحن</a>
+                  </div>
+                  <div class="footer-link">
+                    <a href="partners.html" id="footer_2">شركاؤنا</a>
+                  </div>
+                  <div class="footer-link">
+                    <a href="faq.html" id="footer_5">الاسئلة الشائعة</a>
+                  </div>
+                <div class="footer-link">
+                  <a href="terms.html" id="footer_1">الشروط والأحكام</a>
+                </div>
+                <div class="footer-link">
+                    <a href="privacy.html" id="privacy">الخصوصية</a>
+                  </div>
+                  <div class="footer-link">
+                    <a href="docs.html" id="dalel">دليل المستخدم التقني</a>
+                  </div>
+
+                <div class="footer-link">
+                  <a href="contact.html" id="footer_4">تواصل معنا</a>
+                </div>
+                
+                
+              </div>
+              <div class='footer-links footer-social-links'>
+                <a target="_blank" href='https://www.instagram.com/clickpay_sa'><i class="fab fa-instagram"></i></a>
+                <a target="_blank" href='https://www.youtube.com/channel/UC6Gn53JydQndCDSsprKu3Ng'><i class="fab fa-youtube"></i></a>
+                <a target="_blank" href='https://twitter.com/ClickPay_SA'><i class="fab fa-twitter"></i></a>
+                <a target="_blank" href='https://www.facebook.com/people/ClickPay/100077656193078'><i class="fab fa-facebook-f"></i></a>
+                <a target="_blank" href="tel:+9660112185054"><i class="fa-sharp fa-solid fa-phone"></i></a>
+      
+            </div>
+            <div class='credits'>
+                <img src='images/alinma.png' alt='Alinma Bank'/>
+                <img src='images/saudi.png' alt='Saudi Financial Technology'/>
+            </div>
+        </footer>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script type="text/javascript" src='js/common.js'></script>
+        <script type="text/javascript">
+            AOS.init({once: true, duration: '1500'});
+        </script>
+    </body>
+</html>

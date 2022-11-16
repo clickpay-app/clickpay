@@ -1,0 +1,38 @@
+.logo-container {
+  text-align: center;
+  padding: 80px;
+}
+.logo-container img {
+  width: 123px;
+}
+.form-container {
+  margin-bottom: 50px;
+}
+form.login-form {
+  direction: rtl;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 400px;
+  margin: auto;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+form input {
+  display: block;
+  margin-bottom: 20px;
+  height: 40px;
+  width: 100%;
+  border: none;
+}
+form input.green-button {
+  border-radius: 10px;
+}
+@media (max-width: 530px) {
+  .logo-container img {
+    width: 80%;
+  }
+  form.login-form {
+    width: 90%;
+  }
+}

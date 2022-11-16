@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/x-icon" href="/images/clickpay.svg">
+    <link
+      href="https://fonts.googleapis.com/css?family=Tajawal"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      id="google-fonts-1-css"
+      href="https://fonts.googleapis.com/css?family=Poppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CSen%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CTajawal%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=auto&amp;ver=6.0.3"
+      media="all"
+    />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="stylesheet" href="styles/contact.css" />
+    <link rel="stylesheet" href="styles/common.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <title>Pay</title>
+  </head>
+  <body>
+    <header class='header'>
+      <a class='gold-button' href='login.html' id="navBtn_sign_in">تسجيل الدخول</a>
+      <nav class='navigation navigation-hide' id='navigation'>
+          <div class='navigation-item'><a href="javascript:;" id="navBtn_translate">English</a></div>
+          <div class='navigation-item'><a href="index.html#section-6" id="navItem_6" aria-current="page">حلول الدفع</a></div>
+          <div class='navigation-item'><a href="index.html#section-5" id="navItem_5" aria-current="page">ماذا يميزنا</a></div>
+          <div class='navigation-item'><a href="index.html#section-4" id="navItem_4" aria-current="page">ربط بوابة الدفع</a></div>
+          <div class='navigation-item'><a href="index.html#section-3" id="navItem_3" aria-current="page">إدارة الفواتير</a></div>
+          <div class='navigation-item'><a href="index.html#section-2" id="navItem_2" aria-current="page">روابط الدفع</a></div>
+          <div class='navigation-item'><a href="index.html#section-1" id="navItem_1" aria-current="page">خدماتنا</a></div>
+      </nav>
+      <img src='images/menu.png' class='dropdown' alt='Dropdown' id='dropdown' onclick='toggleNavbar()'/>
+      <a href="index.html" class="logo-link"><img class='logo' src='images/clickpay.svg' alt='Logo'/></a>
+  </header>
+           <div class="container">
+      <div class="image-container">
+        <img src="images/contact-background.jpg" alt="contact us" />
+        <div class="text-container">
+          <div
+            class="text"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="100"
+            id="contactus"
+          >
+            تواصل معنا
+          </div>
+          <div class="line"></div>
+        </div>
+      </div>
+      <div class="form-container">
+        <form class="register-form">
+          <label id="name" for="name">الاسم</label>
+          <input type="text" name="name" />
+          <label id="emailaddress" for="email">البريد الإلكتروني</label>
+          <input type="text" name="email" />
+          <label id="phonenumber" for="number">رقم الجوال</label>
+          <input type="text" name="number" />
+          <label id="inquiry" for="type">نوع الاستفسار</label>
+          <select name="type">
+            <option id="inquiry1">استفسار</option>
+            <option id="inquiry2">شكوى</option>
+          </select>
+          <label id="messagehead" for="title">عنوان الرسالة</label>
+          <input type="text" name="title" />
+          <label id="message" for="message">الرسالة</label>
+          <textarea name="message" cols="30" rows="10"></textarea>
+          <button id="send" type="submit" class="gold-button">إرسال</button>
+        </form>
+      </div>
+    </div>
+    <footer class='footer'>
+      <div class='footer-overlay'></div>
+      <img class='footer-logo' src='images/logo-alternate.png' alt='Logo'/>
+      <div class="footer-links" style=" direction: rtl; ">
+          <div class="footer-link">
+              <a href="about.html" id="footer_3">من نحن</a>
+            </div>
+            <div class="footer-link">
+              <a href="partners.html" id="footer_2">شركاؤنا</a>
+            </div>
+            <div class="footer-link">
+              <a href="faq.html" id="footer_5">الاسئلة الشائعة</a>
+            </div>
+          <div class="footer-link">
+            <a href="terms.html" id="footer_1">الشروط والأحكام</a>
+          </div>
+          <div class="footer-link">
+              <a href="privacy.html" id="privacy">الخصوصية</a>
+            </div>
+            <div class="footer-link">
+              <a href="docs.html" id="dalel">دليل المستخدم التقني</a>
+            </div>
+
+          <div class="footer-link">
+            <a href="contact.html" id="footer_4">تواصل معنا</a>
+          </div>
+          
+          
+        </div>
+        <div class='footer-links footer-social-links'>
+          <a target="_blank" href='https://www.instagram.com/clickpay_sa'><i class="fab fa-instagram"></i></a>
+          <a target="_blank" href='https://www.youtube.com/channel/UC6Gn53JydQndCDSsprKu3Ng'><i class="fab fa-youtube"></i></a>
+          <a target="_blank" href='https://twitter.com/ClickPay_SA'><i class="fab fa-twitter"></i></a>
+          <a target="_blank" href='https://www.facebook.com/people/ClickPay/100077656193078'><i class="fab fa-facebook-f"></i></a>
+          <a target="_blank" href="tel:+9660112185054"><i class="fa-sharp fa-solid fa-phone"></i></a>
+
+      </div>
+      <div class='credits'>
+          <img src='images/alinma.png' alt='Alinma Bank'/>
+          <img src='images/saudi.png' alt='Saudi Financial Technology'/>
+      </div>
+  </footer>    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="js/contact.js"></script>
+    <script type="text/javascript">
+      AOS.init({ once: true, duration: "1500" });
+    </script>
+  </body>
+</html>

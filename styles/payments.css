@@ -1,0 +1,47 @@
+.payments {
+  margin: 5rem auto;
+  text-align: center;
+  background-color: #ffffff;
+}
+.payment-list {
+  margin: auto;
+  width: min(800px, 80%);
+}
+.payments h1 {
+  font-weight: 500;
+  font-size: 2rem;
+  direction: rtl;
+}
+.payment-list img {
+  width: 50px;
+  heigth: 100px;
+}
+.slick-slider {
+  padding: 0px 3rem;
+}
+.slick-slide {
+  margin: 0 1rem;
+  padding: 2rem;
+}
+.slick-dots {
+  position: static;
+  left: 0px;
+  width: 100%;
+}
+.slick-prev:before {
+  content: "\f104";
+  color: #b7813a;
+  font-size: 1.25rem;
+  font-family: "FontAwesome";
+}
+.slick-next:before {
+  content: "\f105";
+  color: #b7813a;
+  font-size: 1.25rem;
+  font-family: "FontAwesome";
+}
+@media (max-width: 768px) {
+  #payment_title {
+    margin-top: 3rem !important;
+  }
+}
